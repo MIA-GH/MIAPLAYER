@@ -83,6 +83,7 @@
             // 
             // LeftGradientBar
             // 
+            this.LeftGradientBar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.LeftGradientBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LeftGradientBar.BackgroundImage")));
             this.LeftGradientBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LeftGradientBar.Controls.Add(this.NowPlayingButton);
@@ -217,9 +218,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(23, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(34, 10);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(186, 163);
+            this.pictureBox1.Size = new System.Drawing.Size(152, 119);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
